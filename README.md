@@ -13,8 +13,7 @@ Zero Dependencies: Built entirely with Python standard libraries (shutil, os, pa
 # Setup and Usage
 ## 1.Clone the repository:
 
-Bash
-git clone https://github.com/EnzzoChacon/Folder-Automation/tree/main
+git clone https://github.com/EnzzoChacon/Folder-Automation.git
 ## 2.Configure the Path:
 Open the script and update the source_path variable to point to the directory you want to organize:
 
@@ -22,7 +21,6 @@ Python
 source_path = Path("C:/Users/YourName/Downloads")
 ## 3.Run the Script:
 
-Bash
 python organizer.py
 ## Requirements
 Python 3.6 or higher.
