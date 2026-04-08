@@ -1,25 +1,16 @@
-## File Organizer
-This Python script automates the organization of files in a specific directory by moving them into subfolders based on their file extensions. It is designed to keep download folders or workspaces clutter-free without manual intervention.
+# Simple Python File Organizer
+A lightweight script to clean up cluttered directories (like your Downloads folder) by automatically sorting files into categorized subfolders based on their extensions.
 
-## Features
-Automatic Categorization: Sorts files into predefined categories like Images, Documents, Programming, Archives, and Executables.
+## Core Logic
+Extension Sorting: Automatically groups images, documents, code, and archives.
 
-Safety Checks: Automatically skips directories and the script itself to prevent recursive errors or accidental moves.
+Safety First: Skips existing directories and the script file itself to avoid loops.
 
-Collision Prevention: Uses pathlib for robust path handling across different operating systems.
+Cross-Platform: Uses pathlib for consistent path handling on Windows, Linux, and macOS.
 
-Case Insensitivity: Extension matching works regardless of whether the file uses uppercase or lowercase letters.
+Zero Dependencies: Built entirely with Python standard libraries (shutil, os, pathlib).
 
-## How it Works
-The script iterates through every file in the target directory. It extracts the file extension and compares it against a dictionary of mapped categories. If a match is found:
-
-It checks if the destination subfolder exists.
-
-It creates the folder if necessary.
-
-It moves the file to its new location and logs the action in the console.
-
-## Setup and Usage
+# Setup and Usage
 ## 1.Clone the repository:
 
 Bash
