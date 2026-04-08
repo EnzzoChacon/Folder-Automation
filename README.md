@@ -14,7 +14,7 @@ Zero Dependencies: Built entirely with Python standard libraries (shutil, os, pa
 ## 1.Clone the repository:
 
 Bash
-git clone https://github.com/yourusername/file-organizer.git
+git clone https://github.com/EnzzoChacon/Folder-Automation/tree/main
 ## 2.Configure the Path:
 Open the script and update the source_path variable to point to the directory you want to organize:
 
