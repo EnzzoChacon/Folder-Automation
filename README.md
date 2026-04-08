@@ -10,7 +10,7 @@ Collision Prevention: Uses pathlib for robust path handling across different ope
 
 Case Insensitivity: Extension matching works regardless of whether the file uses uppercase or lowercase letters.
 
-How it Works
+## How it Works
 The script iterates through every file in the target directory. It extracts the file extension and compares it against a dictionary of mapped categories. If a match is found:
 
 It checks if the destination subfolder exists.
@@ -19,26 +19,26 @@ It creates the folder if necessary.
 
 It moves the file to its new location and logs the action in the console.
 
-Setup and Usage
-Clone the repository:
+## Setup and Usage
+## 1.Clone the repository:
 
 Bash
 git clone https://github.com/yourusername/file-organizer.git
-Configure the Path:
+## 2.Configure the Path:
 Open the script and update the source_path variable to point to the directory you want to organize:
 
 Python
 source_path = Path("C:/Users/YourName/Downloads")
-Run the Script:
+## 3.Run the Script:
 
 Bash
 python organizer.py
-Requirements
+## Requirements
 Python 3.6 or higher.
 
 No external libraries required (uses standard modules os, shutil, and pathlib).
 
-Customization
+## Customization
 You can easily add new file types or change folder names by modifying the file_mapping dictionary:
 
 Python
